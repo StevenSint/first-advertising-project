@@ -7,7 +7,7 @@
 .menuBox{
     width: inherit;
     height: 100px;
-    background-color: black;
+    background-color: blue;
     display: flex; 
     justify-content: space-between;
     align-items: center;
