@@ -1,0 +1,256 @@
+.mainBox{
+    width: 1500px;
+    height: 1500px;
+    background-color: rgb(11, 251, 99);
+}
+
+.menuBox{
+    width: inherit;
+    height: 100px;
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainBox h2{
+    color: black;
+}
+
+.mainBox p{
+    color: black;
+}
+
+.body1Box{
+    width: inherit;
+    height: 390px;
+    background-color:whitesmoke ;
+    display: flex;
+}
+
+.body2Box{
+    width: inherit;
+    height: 540px;
+    background-color:white ;
+    display: flex;
+    flex-direction: column;   
+}
+
+.body3Box{
+    width: inherit;
+    height: 390px;
+    background-color: black;
+    display: flex;
+    gap: 50px;
+}
+
+.footerBox{
+    width: inherit;
+    height: 80px;
+    margin-top: -16px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.logo{
+    color: white;
+    font-family: 'Courier New';
+    margin: 100px;
+
+}
+
+.menuGroup{
+    color: white;
+    list-style: none;
+    display: flex;
+    font-size: 26px;
+    width: 800px;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 20px;
+}
+
+.aboutProgramming{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.programmingImage  img{
+    width: 600px;
+    height: 260px;
+    margin-top: 50px;
+}
+
+button{
+    width: 100px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.body2MiniBox1 img{
+    width: 350px;
+    height: 250px;
+}
+
+.body2MiniBox2 img{
+    width: 350px;
+    height: 250px;
+}
+
+.body2MiniBox3 img{
+    width: 350px;
+    height: 250px;
+}
+
+.body2-MiniBoxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body2Heading h3{
+    font-size: 26px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.body2-MiniBoxes p{
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+.body2-MiniBoxes h4{
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.body2MiniBox1{
+    width: 350px;
+    height: 450px;
+}
+
+.body2MiniBox2{
+    width: 350px;
+    height: 450px;
+}
+
+.body2MiniBox3{
+    width: 350px;
+    height: 450px;
+}
+
+.latestPosts{
+    width: 440px;
+    height: inherit;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    width: 560px;
+    height: inherit;
+}
+
+.stayConnected{
+    width: 200px;
+    height: inherit;
+}
+
+.latestPostsBody{
+    display: flex;
+    flex-direction: row;
+}
+
+.imageGroup img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.latestPosts h3{
+    margin-left: 20px;
+}
+
+.body3Box h1{
+    color: white;
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.body3Box h3{
+    color: white;
+}
+.body3Box p{
+    color: white;
+}
+
+.body3Box h2{
+    color: white;
+}
+
+.facebook i{
+    font-size: 35px;
+    color: rgb(0, 89, 255);
+}
+
+.twitter i{
+    font-size: 35px;
+    color: lightblue;
+}
+
+.rss i{
+    font-size: 35px;
+    color: orange;
+}
+
+.google i{
+    font-size: 35px;
+    color: orangered;
+}
+
+.stayConnectedBody{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 23px;
+}
+
+
+
+.latestPosts img{
+    width: 100px;
+    height: 100px;
+}
+
+.latestPosts h1{
+    color: white;
+    font-size: 26px;
+}
+
+.latestPosts h4{
+    color: white;
+    font-size: 20px;
+}
+
+.latestPosts p{
+    color: white;
+    font-size: 16px;
+}
+
